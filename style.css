@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Oleo+Script+Swash+Caps&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    font-family: 'Fredoka One', cursive;
+  background-image: url(https://ak.picdn.net/shutterstock/videos/10174397/thumb/1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.title {
+    padding: 50px;
+    display: grid;
+    place-items: center;
+    color: white;
+}
+.grid{
+    display: grid;
+    place-items: center;
+}
+.box{
+    width: 300px;
+    padding: 40px;
+    background-color: rgba(41, 39, 39, 0.3);
+    box-shadow: 0 5px 30px black;
+}
+
+.logo{
+    color: aqua;
+}
+
+.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding:10px;
+}
+
+.box input{
+    border: none;
+    width: 80%;
+    border-bottom: 2px solid white;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: transparent;
+    color: white;
+}
+
+
+input:focus {
+    outline: none !important;
+    border-bottom: 2px solid rgb(91, 243, 131);
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+::placeholder {
+    color: white;
+}
+
+.button{
+    display: grid;
+    place-items:center;
+    padding: 10px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: rgb(10, 136, 43);
+    border-style: none;
+    color: white;
+    font-weight: 600;
+}
+
+.button:hover{
+    background-color: rgba(10, 136, 43, 0.5);
+}
+a{
+    text-decoration:none;
+}
+
+hr{
+    color:aliceblue;
+    margin-top: 20px;
+    width: 80%;
+}
+p{
+    color: white;
+    padding: 10px;
+}
